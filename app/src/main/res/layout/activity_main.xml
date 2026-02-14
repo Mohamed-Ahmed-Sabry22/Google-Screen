@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/android_logo"
+        android:alpha="0.5"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/google"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:id="@+id/datails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google LLC is an American multinational technology corporation focused on information technology, online advertising, search engine technology, email, cloud computing, software, quantum computing, e-commerce, consumer electronics, and artificial intelligence."
+        android:textSize="28sp"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:drawablePadding="8dp"
+        android:textColor="#000"
+        android:drawableStart="@drawable/outline_ad_24"
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sohag , Naser city"
+        app:layout_constraintTop_toBottomOf="@+id/datails"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="24sp"
+
+        />
+
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textColor="#3F51B5"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/baseline_home_24"
+        android:id="@+id/lacation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="google.com"
+        app:layout_constraintTop_toBottomOf="@+id/address"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="24sp"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
