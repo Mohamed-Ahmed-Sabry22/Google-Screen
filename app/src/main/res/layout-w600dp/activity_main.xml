@@ -34,7 +34,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/googleDetails"
             android:textColor="@color/black1"
-            android:textSize="28sp"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/google" />
@@ -44,12 +44,12 @@
             android:id="@+id/address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="42dp"
             android:drawableStart="@drawable/outline_ad_24"
-            android:drawablePadding="8dp"
+            android:drawablePadding="16dp"
             android:text="@string/googleAddress"
             android:textColor="@color/black1"
-            android:textSize="24sp"
+            android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/datails"
 
@@ -60,12 +60,12 @@
             android:id="@+id/lacation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:drawableStart="@drawable/baseline_home_24"
-            android:drawablePadding="8dp"
+            android:drawablePadding="16dp"
             android:text="@string/com"
             android:textColor="#3F51B5"
-            android:textSize="24sp"
+            android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/address"
 
@@ -73,4 +73,5 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>

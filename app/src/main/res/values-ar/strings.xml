@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">السنجل اكتيفيتي</string>
+    <string name="googleDetails">جوجل هي شركة تكنولوجيا أمريكية متعددة الجنسيات تركز على تكنولوجيا المعلومات، والإعلان عبر الإنترنت، وتكنولوجيا محركات البحث، والبريد الإلكتروني، والحوسبة السحابية، والبرمجيات، والحوسبة الكمومية، والتجارة الإلكترونية، والإلكترونيات الاستهلاكية، والذكاء الاصطناعي.</string>
+    <string name="googleAddress">سوهاح , مدينة ناصر</string>
+    <string name="com"><u>google.com</u></string>
+</resources>
